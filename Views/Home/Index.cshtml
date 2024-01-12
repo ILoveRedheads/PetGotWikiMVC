@@ -1,0 +1,111 @@
+﻿@{
+    Layout = null; // This removes the layout template
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/Index.css" />
+
+    <title>Game Of Thrones Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            max-width: 100%;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            width: 500px;
+            height: 600px;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 50px;
+            position: relative; /* Added to enable absolute positioning within the button */
+
+        }
+        .button img {
+            width: 100%;
+            height: auto;
+            display: block; /* Ensures the image is treated as a block element */
+            margin: 0 auto; /* Centers the image horizontally */
+        }
+        .button span {
+        /* Added to create a container for the text */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            font-size: 25px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <img src="/Images/Content/Sigils/targaryen-sigil.png" alt="Logo" class="Logo">
+            <h1>Game Of Thrones Library</h1>
+        </div>
+    </header>
+    <main>
+        <a href="/characters" class="button">
+            <img src="/Images/MainMenu/Buttons/jaime.jpg" alt="Characters">
+           <span>Characters</span>
+        </a>
+        <a href="/locations" class="button">
+            <img src="/Images/MainMenu/Buttons/locations.jpg" alt="Locations">
+           <span>Locations</span>
+        </a>
+        <a href="/battles" class="button">
+            <img src="/Images/MainMenu/Buttons/battles.jpg" alt="Battles">
+            <span>Battles</span>
+        </a>
+    </main>
+    <footer>
+        <p>Created by Ivan Plotnikov 
+            <a href="mailto:evansmit2@gmail.com">
+                <img src="/Images/Contacts/gmail.png"
+                width="68"
+                height="51"></a>
+            <a href="https://vk.com/ilovewhiskey">
+                    <img src="/Images/Contacts/vk.png"
+                    width="68"
+                    height="68"></a>
+            <a href="https://github.com/ILoveRedheads">
+                <img src="/Images/Contacts/git.png"
+                     width="68"
+                     height="68">
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
