@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9bD2LKO94ZoKKxgYN0qmxlIfMZoj3A8ON51aOq0CHmEg3McliYmK2rtj9O5LmDyFI3LXUYECFpTCGfWQL5tuDA==",
+  "dgSpecHash": "GUlVPzaQZrrxjQMietMqfbT7DTc31QYkwXx8TQVGGd0K2Ev6Dja2DJAvyUDhVTM0KRxc321v/RPBr5PoAX6t9g==",
   "success": true,
-  "projectFilePath": "E:\\GotWiki\\GoT WIki.csproj",
+  "projectFilePath": "E:\\pets\\PetGotWikiMVC\\GoT WIki.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\heybu\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\heybu\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\6.0.0\\microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.0.nupkg.sha512",
