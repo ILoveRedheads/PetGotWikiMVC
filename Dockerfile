@@ -2,8 +2,14 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
+
+# Add the following lines to create a non-root user
+RUN addgroup --system appgroup && adduser --system appuser --ingroup appgroup
+RUN chown -R appuser:appgroup /app
+
 EXPOSE 80
 EXPOSE 443
+USER appuser
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
